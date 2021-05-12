@@ -45,7 +45,6 @@
     ALIAS(lt_float_fast, lt_float) \
     ALIAS(le_float_fast, le_float) \
     ADD_I(fpiseq, 2) \
-    ADD_I(fpislt, 2) \
     /*  bitwise operators */ \
     ADD_I(and_int, 2) \
     ADD_I(or_int, 2) \
@@ -88,6 +87,7 @@
     ADD_I(trunc_llvm, 1) \
     ADD_I(rint_llvm, 1) \
     ADD_I(sqrt_llvm, 1) \
+    ADD_I(sqrt_llvm_fast, 1) \
     /*  pointer access */ \
     ADD_I(pointerref, 3) \
     ADD_I(pointerset, 4) \
